@@ -211,7 +211,7 @@ class GenericAPIView(generics.GenericAPIView, mixins.ListModelMixin, mixins.Crea
 
 # class ArticleViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateModelMixin,mixins.UpdateModelMixin,mixins.RetrieveModelMixin,mixins.DestroyModelMixin):
 #     serializer_class = ArticleSerializer
-#     queryset = Article.objects.all()
+#     queryset = Article.objects.all()    
 
 
 #Model ViewSets
